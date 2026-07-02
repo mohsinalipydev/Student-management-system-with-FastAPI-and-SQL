@@ -269,6 +269,10 @@ databases:
 - 📱 Mobile app
 - 📈 More detailed analytics
 
+## Author
+
+### Mohsin Ali
+
 ## License
 
 MIT License - feel free to use this project for your portfolio!
