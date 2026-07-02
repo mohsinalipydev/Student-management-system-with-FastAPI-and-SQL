@@ -270,7 +270,8 @@ databases:
 - 📈 More detailed analytics
 
 ## Screenshots
-<img width="1875" height="907" alt="Screenshot 2026-07-02 110856" src="https://github.com/user-attachments/assets/c3d6e10d-8dbd-4640-8c7b-70f1362e437c" />
+<img width="1883" height="907" alt="Screenshot 2026-07-02 111907" src="https://github.com/user-attachments/assets/1533747f-83af-43f2-b9ba-b9f163e32fb2" />
+
 
 <img width="1886" height="908" alt="Screenshot 2026-07-02 110648" src="https://github.com/user-attachments/assets/79c0f08a-6ad7-4cb7-9de9-09261e79440c" />
 
