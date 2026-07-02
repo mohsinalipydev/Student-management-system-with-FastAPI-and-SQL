@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS | Dashboard</title>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <i class="fas fa-graduation-cap"></i> SMS
+        </div>
+        
+        <ul class="sidebar-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="login.html" id="login-link" class="hidden"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+            <li><a href="register.html" id="register-link" class="hidden"><i class="fas fa-user-plus"></i> Register</a></li>
+            <li><a href="dashboard.html" class="active"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+            <li><a href="students.html"><i class="fas fa-users"></i> Students</a></li>
+            <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+        </ul>
+        
+        <div class="sidebar-footer">
+            <a href="#" id="logout-link"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Dashboard -->
+        <section class="dashboard-section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Dashboard Overview</h1>
+                    <p>Welcome back! Here's what's happening with your students today.</p>
+                </div>
+                
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3><i class="fas fa-users"></i> Total Students</h3>
+                        <p class="stat-value" id="total-students">0</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <h3><i class="fas fa-male"></i> Male Students</h3>
+                        <p class="stat-value" id="male-students">0</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <h3><i class="fas fa-female"></i> Female Students</h3>
+                        <p class="stat-value" id="female-students">0</p>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <h3><i class="fas fa-star"></i> Average CGPA</h3>
+                        <p class="stat-value" id="average-cgpa">0.0</p>
+                    </div>
+                </div>
+                
+                <!-- Department Stats -->
+                <div class="dept-section">
+                    <h2><i class="fas fa-building"></i> Students by Department</h2>
+                    <div id="dept-stats" class="dept-grid"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
